@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: solid 1px seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+img.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+nav a {
+  color: seashell;
+  padding: 0px 10px;
+}
+
+.main-container {
+  margin: auto;
+  width: 1200px;
+}
+
+.flex-box {
+  background: url("../images/img-mission-background.jpg");
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#box-content {
+  background: black;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.product {
+  background: black;
+  border: solid 1px black;
+  margin: auto;
+  padding: 30px 0;
+  width: 1000px;
+}
+
+#product-title {
+  text-align: center;
+}
+
+.product-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-item img {
+  height: 200px;
+  width: 300px;
+}
+
+.product-item h4 {
+  margin-top: 10px;
+}
+
+.locations {
+  background: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 30px;
+}
+
+#location-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#location-title h2 {
+  margin-bottom: 15px;
+}
+
+.location-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.location-item {
+  background: black;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  margin: 0 20px;
+  opacity: 1;
+  text-align: center;
+  width: 300px;
+}
+
+.contact {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  padding-top: 15px;
+  text-align: center;
+}
+
+footer {
+  background: black;
+  display: flex;
+  padding-left: 20px;
+}
